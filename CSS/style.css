@@ -1,0 +1,12 @@
+.parent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.child {
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 25vh;
+    background: #ce453f;
+}
