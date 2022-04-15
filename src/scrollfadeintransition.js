@@ -15,7 +15,7 @@ function cg(selector) {
                     }
                 }
             });
-        }
+        },
     };
     return self;
 }
