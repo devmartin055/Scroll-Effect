@@ -1,6 +1,6 @@
 function mcdg(selector) {
     const self = {
-        element: document.querySelectorAll(selector), //get the element DOM (document object model)
+        element: document.querySelectorAll(selector),
         scrollFadeIn: (settings = {}) => {
             self.element[0].parentElement.style.overflowX = "hidden";
             settings.translateY = typeof settings.translateY === 'undefined' ? 0 : settings.translateY;
