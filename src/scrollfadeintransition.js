@@ -9,10 +9,10 @@ function mcdg(selector) {
             settings.play = typeof settings.play === 'undefined' ? "once" : settings.play;
 
             const css = {
-                active: function (element) {
+                active: function () {
                     return "opacity : 1; transform: translate(0, 0); transition: all " + settings.duration + "s;";
                 },
-                inactive: function (element) {
+                inactive: function () {
                     return "opacity : 0; transform: translate(" + settings.translateX + ", " + settings.translateY + "); transition: all " + settings.duration + "s;";
                 }
             }
