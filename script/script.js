@@ -12,3 +12,8 @@ mcdg(".mustard").scrollFadeIn({
     translateY: "25vh",
 });
 
+mcdg("#magenta").scrollFadeIn({
+    duration: 3,
+    translateY: "-25vh",
+});
+
