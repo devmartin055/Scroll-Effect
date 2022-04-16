@@ -1,4 +1,4 @@
-function _4h(selector) {
+function mcdg(selector) {
     const self = {
         element: document.querySelectorAll(selector), //get the element DOM (document object model)
         scrollFadeIn: (settings = {}) => {
