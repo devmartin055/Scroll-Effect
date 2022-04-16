@@ -1,12 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
 .parent {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     gap: 10px;
+    margin-bottom: 10px;
 }
 
 .child {
     flex-grow: 0;
     flex-shrink: 0;
-    height: 25vh;
+    height: 50px;
     background: #ce453f;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.orange-red {
+    background-color: #CE453F;
+}
+
+.yellow-green {
+    background: #B1C748;
+}
+
+.bg-mustard {
+    background-color: #F0C755;
 }
