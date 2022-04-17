@@ -1,18 +1,21 @@
-mcdg('.child').scrollFadeIn();
+mcdg('.child').scrollEffect();
 
-mcdg(".yellow-green").scrollFadeIn({
+
+mcdg(".yellow-green").scrollEffect({
     translateX: "-300px",
 });
 
-mcdg(".orange-red").scrollFadeIn({
+mcdg(".orange-red").scrollEffect({
     translateX: "300px",
 });
-mcdg(".mustard").scrollFadeIn({
+
+
+mcdg(".mustard").scrollEffect({
     duration: 3,
     translateY: "25vh",
 });
 
-mcdg("#magenta").scrollFadeIn({
+mcdg("#magenta").scrollEffect({
     duration: 3,
     translateY: "-25vh",
 });

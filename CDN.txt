@@ -1,5 +1,5 @@
 Regular uncompressed
-https://cdn.jsdelivr.net/gh/devmartin055/Scroll-Fade-In-Transition/src/scrollfadeintransition.js
+https://cdn.jsdelivr.net/gh/devmartin055/Scroll-Effect/src/scrollfadeintransition.js
 
 Minified
-https://cdn.jsdelivr.net/gh/devmartin055/Scroll-Fade-In-Transition/src/scrollfadeintransition.min.js
+https://cdn.jsdelivr.net/gh/devmartin055/Scroll-Effect/src/scrollfadeintransition.min.js

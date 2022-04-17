@@ -1,13 +1,12 @@
 function mcdg(selector) {
     const self = {
         element: document.querySelectorAll(selector), //get the element DOM (document object model)
-        scrollFadeIn: (settings = {}) => {
+        scrollEffect: (settings = {}) => {
             self.element[0].parentElement.style.overflowX = "hidden";   //add overflowx hidden to the parent of the element
             settings.translateY = typeof settings.translateY === 'undefined' ? 0 : settings.translateY; //check if there is a custom falue passed and at the same time declare defaults
             settings.translateX = typeof settings.translateX === 'undefined' ? 0 : settings.translateX;
             settings.duration = typeof settings.duration === 'undefined' ? 1 : settings.duration;
             settings.play = typeof settings.play === 'undefined' ? "once" : settings.play;
-
             const css = {
                 //active method: meaning the element is currently showing
                 active: function () {
