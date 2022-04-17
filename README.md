@@ -8,7 +8,7 @@ This library allows the developer to effortlessly add simple fade animation/tran
 Install Scroll Effect using CDN
 
 ```html
-    <script scr="https://cdn.jsdelivr.net/gh/devmartin055/Scroll-Effect/src/scrollfadeintransition.min.js"></script>
+    <script scr="https://cdn.jsdelivr.net/gh/devmartin055/Scroll-Effect/src/mcdgscrolleffect.min.js"></script>
 ```
     
 ## Demo
