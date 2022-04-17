@@ -39,7 +39,7 @@ If you want to customize the scroll effect. you can pass an object into the **sc
 mcdg("#classname").scrollEffect({
     duration: 3,
     translateX: '25px',
-    // translateX: '25px',
+    // translateX: '-25px',
     // translateY: '25px',
     // translateY: '-25px',
 });
