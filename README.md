@@ -1,2 +1,2 @@
 # Scroll-Effect
-`console.log`
+`console.log("hello world")`
