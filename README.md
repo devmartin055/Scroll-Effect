@@ -49,8 +49,8 @@ For the time being, the table below shows the available properties that can be c
 
 |   Property |  Datatype |  Value | Description |
 |   ---      | ---       |  ---   | ---         |
-|   translateX | string  |  css units (px, vh, em, etc.) | Allows you to add a displacement position in **X axis** where you want your element to come from. |
-|   translateY | string  |  css units (px, vh, em, etc.) | Allows you to add a displacement position in **Y axis** where you want your element to come from. |
+|   translateX | string  |  css units (px, vh, em, etc.) | Allows you to add displacement position in **X axis** where you want your element to come from. |
+|   translateY | string  |  css units (px, vh, em, etc.) | Allows you to add displacement position in **Y axis** where you want your element to come from. |
 |   duration | int/float/double  |  1/2/3/... | specifies the duration time of the animation to finish. **Measured in seconds.** |
 
 
